@@ -8,29 +8,25 @@
 
 ## 1.4 EXPECTATIVAS DO CLIENTE
 
- - Criar um formulário eletrônico via web para suportar o processo de
-   avaliação da qualidade do ensino do Infnet.
+ - Criar um formulário eletrônico via web para suportar o processo de avaliação da qualidade do ensino do Infnet.
 
 # 2 REQUISITOS E RISCOS DO PROJETO
 
 ## 2.1 FUNCIONAIS
 
- 1. Permitir a manutenção de um cadastro de questões do tipo texto com
-    opções de resposta numa escala Likert de cinco graus.
- 2. Permitir a manutenção do cadastro de questões por usuário com perfil de administrador da solução.
- 3. Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
- 4. Identificar univocamente as avaliações, com um código alfanumérico, criado a critério de um usuário com perfil de administrador da solução.
- 5. Associar questões do cadastro de questões em uma avaliação.
- 6. Permitir que somente os alunos que cursaram um determinado módulo respondam as avaliações.
- 7. Enviar ao professor o resultado de sua avaliação pelos alunos.
- 8. Permitir que somente usuários com o papel de Administrador do sistema possam definir o período de início de uma determinada avaliação.
- 9. Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
- 10. Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
+ 1. Permitir a manutenção de um cadastro de questões do tipo texto com opções de resposta numa escala Likert de cinco graus  por usuário com perfil de administrador da solução.
+ 2. Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
+ 3. Identificar univocamente as avaliações (com um código alfanumérico criado a critério de um usuário com perfil de administrador da solução).
+ 4. Permitir a associação de questões do cadastro de questões com uma determinada avaliação.
+ 5. Permitir que somente os alunos que cursaram um determinado módulo respondam às avaliações.
+ 6. Enviar aos professores o resultado de suas avaliações pelos alunos.
+ 7. Permitir que somente usuários com o papel de administrador do sistema possam definir o período de início de uma determinada avaliação.
+ 8. Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
+ 9. Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
 
 ## 2.2 NÃO FUNCIONAIS
 
- 1. Evitar a exibição de barras de rolagem horizontal na exibição do
-    formulário eletrônico.
+ 1. Evitar a exibição de barras de rolagem horizontal na exibição do formulário eletrônico.
  2. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
  3. Editar (usando algum editor *rich text*) o código HTML que será enviado no e-mail disparado aos alunos que avaliarão a qualidade do ensino.
  4. Incluir o endereço do link para avaliação no e-mail enviado aos alunos que responderão a avaliação.
