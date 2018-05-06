@@ -1,7 +1,12 @@
 # Arquitetura SOA
 
-* Líder: Eduardo
-* Secretário: Leonardo
+ - Líder
+	 - Eduardo
+ - Secretário
+	 - Leonardo
+ - Referências do professor
+	 - Larman, Pressman, Sommerville.
+	 - Fox, Armando e Paterson, David. Construindo Software como Serviço – Uma Abordagem Ágil Usando Computação em Nuvem, Strawberry Canyon LLC, 2015.
 
 ## O que é SOA?
 

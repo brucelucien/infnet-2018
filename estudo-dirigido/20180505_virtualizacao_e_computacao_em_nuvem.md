@@ -1,7 +1,13 @@
 # Virtualização e Computação em Nuvem
 
-* Líder: Bruce
-* Secretário: Anderson
+ - Líder
+	 - Bruce
+ - Secretário
+	 - Anderson
+ - Referências do professor
+	 - https://www.redhat.com/pt-br/topics/virtualization
+	 - https://www.vmware.com/br/solutions/virtualization.html
+	 - https://www.infowester.com/virtualizacao.php
 
 ## Qual é a diferença entre máquina virtual e contêiner?
 

@@ -1,7 +1,13 @@
 # Cloud Computing
 
-* Líder: Anderson
-* Secretário: Bruce
+ - Líder
+	 - Anderson
+ - Secretário
+	 - Bruce
+ - Referências do professor  
+	 - https://aws.amazon.com/pt/what-is-cloud-computing/
+	 - https://azure.microsoft.com/pt-br/overview/what-is-cloud-computing/
+	 - https://azure.microsoft.com/pt-br/overview/cloud-computing-dictionary/
 
 ## Qual é o impacto da metodologia de desenvolvimento de software uma vez que venhamos a adotar a computação em nuvem?
 
