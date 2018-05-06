@@ -15,30 +15,33 @@
 
 ## 2.1 FUNCIONAIS
 
- - Permitir a manutenção de um cadastro de Questões do tipo texto com opções de resposta numa escala Likert de cinco graus.
- - Não deve existir preferência de resposta entre as alternativas de uma questão.
- - Permitir a manutenção do cadastro de questões por usuário com perfil de administrador da solução.
- - Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
- - Identificar univocamente as avaliações, com um código alfanumérico, criado a critério de um usuário com perfil de administrador da solução.
- - Associar questões do cadastro de questões em uma avaliação.
- - Permitir que somente os alunos que cursaram um determinado módulo respondam as avaliações.
- - Enviar ao professor o resultado de sua avaliação pelos alunos.
- - Impedir que os professores do INFNET utilizem o sistema.
- - Permitir que o usuário role verticalmente o formulário eletrônico quando há uma quantidade de questões que ultrapassa o tamanho da tela do usuário. 
- - Abrir automaticamente o período de avaliação, a partir do momento programado para seu início.
- - Permitir que somente usuários com o papel de Administrador do sistema possam definir o período de início de uma determinada avaliação.
- - Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
- - Editar o código HTML que será enviado no e-mail enviado aos alunos que avaliarão a qualidade do ensino.
- - Incluir o endereço do link para avaliação no e-mail enviado aos alunos que responderão a avaliação.
- - Permitir a utilização de tags que identificam o aluno com tratamento de gênero.
- - Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
+ 1. Permitir a manutenção de um cadastro de questões do tipo texto com
+    opções de resposta numa escala Likert de cinco graus.
+ 2. Permitir a manutenção do cadastro de questões por usuário com perfil de administrador da solução.
+ 3. Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
+ 4. Identificar univocamente as avaliações, com um código alfanumérico, criado a critério de um usuário com perfil de administrador da solução.
+ 5. Associar questões do cadastro de questões em uma avaliação.
+ 6. Permitir que somente os alunos que cursaram um determinado módulo respondam as avaliações.
+ 7. Enviar ao professor o resultado de sua avaliação pelos alunos.
+ 8. Permitir que somente usuários com o papel de Administrador do sistema possam definir o período de início de uma determinada avaliação.
+ 9. Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
+ 10. Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
 
 ## 2.2 NÃO FUNCIONAIS
 
- - Evitar a exibição de barras de rolagem horizontal na exibição do formulário eletrônico.
- - Garantir que o formulário web tenha o mesmo lay out do formulário de papel utilizado pela instituição.
+ 1. Evitar a exibição de barras de rolagem horizontal na exibição do
+    formulário eletrônico.
+ 2. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
+ 3. Editar (usando algum editor *rich text*) o código HTML que será enviado no e-mail disparado aos alunos que avaliarão a qualidade do ensino.
+ 4. Incluir o endereço do link para avaliação no e-mail enviado aos alunos que responderão a avaliação.
+ 5. Abrir automaticamente o período de avaliação, a partir do momento programado para seu início.
+ 6. Permitir que o usuário role verticalmente o formulário eletrônico quando há uma quantidade de questões que ultrapassa o tamanho da tela do usuário. 
+ 7. Permitir a utilização de tags (com tratamento de gênero) que identificam o aluno.
+ 8. Não deve existir preferência de resposta entre as alternativas de uma questão.
 
 ## 2.3 REGRAS DE NEGÓCIO
+
+ 1. Professores não podem utilizar o sistema.
 
 ## 2.4 RISCOS DO PROJETO
 
