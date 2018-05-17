@@ -8,7 +8,7 @@
 
 ## 1.4 EXPECTATIVAS DO CLIENTE
 
- - Criar um formulário eletrônico via web para suportar o processo de avaliação da qualidade do ensino do Infnet.
+Criar um formulário eletrônico via web para suportar o processo de avaliação da qualidade do ensino do Infnet.
 
 # 2 REQUISITOS E RISCOS DO PROJETO
 
