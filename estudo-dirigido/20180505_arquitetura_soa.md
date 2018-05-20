@@ -31,3 +31,5 @@ Um serviço possui três camadas: (ALVES, 2013, p. 8).
 ## REFERÊNCIAS
 
 ALVES, Luís Cézar Darienzo. O impacto da virtualização no desempenho de aplicações distribuídas baseadas em SOA e a sua influência nos modelos de desempenho. Orientador: Marcos José Santana. Tese de doutorado. Universidade de São Paulo. 2013.
+
+TROYER, J. **Understanding full virtualization, paravirtualization, and hardware assist**. VMWare White Paper, VMWare, Palo Alto, CA, 2007.

@@ -24,6 +24,19 @@ Complementando o parágrafo anterior, uma *imagem Docker* é um template somente
 
 ## Qual a diferença entre um host físico e um virtual?
 
+Um host físico é um host comum, servindo uma única aplicação em um único servidor web. Um host virtual utiliza a abordagem conhecida como *Virtual Hosts*.
+
+O termo **Virtual Hosts** (ou *hosts virtuais*, em uma tradução livre) refere-se à prática de rodar mais de um site (como `company1.example.com` e `company2.example.com`, por exemplo) em uma única máquina. Virtual hosts podem ser **IP-based**, significando que você tem um IP diferente para cada web site, or **name-based**, significando que você tem múltiplos nomes rodando em cada endereço IP. O fato de que eles estão rodando no mesmo servidor físico não é perceptível para o usuário final. (APACHE, 2018)
+
+Os Virtual Hosts (no contexto do servidor Apache) são apelidos dados ao caminho onde está rodando seu site ou aplicação web. Geralmente isso é feito em servidores de desenvolvimento para facilitar o acesso ao projeto. Por exemplo, em vez de colocar `http://localhost/sites2015/joomla3/sitesdeloja/loja10` você pode configurar o Virtual Host do servidor para simplesmente acessar com o endereço `http://loja10`. (TABLELESS, 2018).
+
+Os hosts virtuais funcionam da seguinte forma: (ALURA, 2018).
+
+*  Um computador faz a requisição para acessar um site pelo seu nome de domínio;
+*  Esse pedido chega ao nosso servidor web que encaminha para o host virtual da requisitção, podendo ser uma pasta ou outro servidor. O servidor recebe a requisição e encaminha para o diretório que está configurado.
+
+Uma alternativa ao Virtual Hosts (que pode ser implementando com o *Apache* ou com outro servidor web, como o *nginx*, por exemplo), seria utilizar um virtualizador, como o *VMware*, que possibilita que outros sistemas operacionais rodem em uma única máquina, de forma que seja possível colocar para rodar mais de um *servidor virtual* por máquina. (ALURA, 2018).
+
 ## O que é e como funciona o Hipervisor?
 
 ## Quais são as vantagens e desvantagens da computação em nuvem?
@@ -36,8 +49,12 @@ Complementando o parágrafo anterior, uma *imagem Docker* é um template somente
 
 ACADGILD. **What is Docker container - an introduction**. Disponível em: <<https://acadgild.com/blog/what-is-docker-container-an-introduction>>. Acesso em: 20 mai. 2018.
 
+APACHE. **Apache Virtual Host documentation**. Disponível em: <<https://httpd.apache.org/docs/2.4/vhosts/>>. Acesso em: 20 mai. 2018.
+
 DOCKER. **What is a container**: a standardized unit of software. Disponível em: <<https://www.docker.com/what-container>>. Acesso em: 20 mai. 2018.
 
 TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: Pearson Prentice Hall, 2009.
 
-TROYER, J. **Understanding full virtualization, paravirtualization, and hardware assist**. VMWare White Paper, VMWare, Palo Alto, CA, 2007.
+TABLELESS. **Como automatizar a criação de Virtual Hosts**. Disponível em: <<https://tableless.com.br/como-automatizar-criacao-de-virtual-hosts/>>. Acesso em: 20 mai. 2018.
+
+ALURA. **Como configurar Virtual Hosts no Apache**. Disponível em: <<http://blog.alura.com.br/como-configurar-virtual-hosts-no-apache/>>. Acesso em: 20 mai. 2018.
