@@ -39,6 +39,10 @@ Uma alternativa ao Virtual Hosts (que pode ser implementando com o *Apache* ou c
 
 ## O que é e como funciona o Hipervisor?
 
+*Hypervisor* é uma camada de software entre o hardware e o sistema operacional. O hypervisor é responsável por fornecer ao sistema operacional visitante a abstração da máquina virtual. E é ele que controla o acesso dos sistemas operacionais visitantes aos dispositivos de hardware. Existem tecnologias de hardware que optimizam a execução de máquinas virtuais, dentre essas tecnologias estão *VT-d* e *AMD-V*. (GETCARD, 2018).
+
+Existem diversos hypervisors no mercado, tanto open source quanto pago. Alguns exemplos de hypervisor são *kvm*, *hyper-v*, *vmware* e *xen*, cada um com seus prós e contras e seus custos; cabendo a um especialista ajudá-lo na decisão de qual hardware e hypervisor se enquadra melhor no seu cenário. (GETCARD, 2018).
+
 ## Quais são as vantagens e desvantagens da computação em nuvem?
 
 ## Qual é a associação entre computação em nuvem e virtualização?
@@ -58,3 +62,5 @@ TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: P
 TABLELESS. **Como automatizar a criação de Virtual Hosts**. Disponível em: <<https://tableless.com.br/como-automatizar-criacao-de-virtual-hosts/>>. Acesso em: 20 mai. 2018.
 
 ALURA. **Como configurar Virtual Hosts no Apache**. Disponível em: <<http://blog.alura.com.br/como-configurar-virtual-hosts-no-apache/>>. Acesso em: 20 mai. 2018.
+
+GETCARD. **O que é um hypervisor?**. Disponível em: <<http://www.getcard.com.br/novo/o-que-e-um-hypervisor/>>. Acesso em: 20 mai. 2018.
