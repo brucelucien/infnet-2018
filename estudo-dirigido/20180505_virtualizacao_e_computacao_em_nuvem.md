@@ -45,6 +45,29 @@ Existem diversos hypervisors no mercado, tanto open source quanto pago. Alguns e
 
 ## Quais são as vantagens e desvantagens da computação em nuvem?
 
+### Vantagens
+
+A maior vantagem da computação em nuvem é a **possibilidade de utilizar softwares sem que estes estejam instalados no computador**, mas há outras vantagens: (WIKIPEDIA, 2018).
+
+* Na maioria das vezes **o usuário não precisa se preocupar com o sistema operacional e hardware que está usando em seu computador pessoal**, podendo acessar seus dados na *nuvem computacional* independentemente disso.
+*  As **atualizações dos softwares são feitas de forma automática**, sem necessidade de intervenção do usuário.
+*  O trabalho corporativo e o comartilhamento de arquivos se tornam mais fáceis, uma vez que **todas as informações se encontram em um mesmo *lugar***, ou seja, na *nuvem computacional*.
+*  Os **softwares e os dados podem ser acessados em qualquer lugar**, basta apenas que haja acesso à internet, não são mais restritos ao ambiente local de computação, nem dependem da sincronização de mídias removíveis.
+*  O usuário tem um **melhor controle de gastos** ao usar aplicativos, pois a maioria dos sistemas de computação em nuvem fornece aplicações gratuitamente e, quando não gratuitas, são pagas somente pelo tempo de utilização dos recursos. Não é necessário pagar por uma licença integral de uso de software.
+*  **Diminui a necessidade de manutenção** da infraestrutura física de redes locais cliente/servidor, bem como da instalação dos softwares nos computadores corporativos, pois esta fica a cargo do provedor do software em nuvem, bastando que os computadores clientes tenham acesso à internet.
+*  **A infraestrutura necessária para uma solução de computação em nuvem é bem mais enxuta do que uma solução tradicional** de hospedagem ou alojamento, consumindo menos energia, refrigeração e espaço físico e, consequentemente, contribuindo para a preservação e o uso racional dos recursos naturais.
+
+### Desvantagens
+
+A maior desvantagem da computação em nuvem vem de fora do propósito desta, que é o **acesso à internet**. Caso você perca o acesso, comprometerá todos os sistemas embarcados. Outras desvantagens são: (WIKIPEDIA, 2018).
+
+*  **Velocidade de processamento**: caso seja necessária uma grande taxa de transferência, se a internet não possuir uma banda de qualidade, o sistema pode ser comprometido. Um exemplo típico é com mídias digitais ou jogos.
+*  Assim como todo tipo de serviço, ele é **custeado**.
+
+No que se refere ao custo, para cada ação realizada pela empresa, existe um custo a ser adicionado no orçamento. No caso da computação em nuvem não seria diferente, já que você terá de contratar um servidor para atender especificamente às necessidades de seus colaboradores e da organização como um todo. Assim, é importante verificar qual a solução ideal, para não gastar excessivamente. (MARQUES, 2018).
+
+Outra desvantagem referese à **segurança**. Apesar dos arquivos serem criptografados, a partir do momento em que são armazenados na nuvem, muitas pessoas ainda sentem-se inseguras ao salvarem seus dados nestas ferramentas. Isso porque, seus usuários podem sofrer ataques de cibercriminosos e ter logins e senhas capturados, o que pode gerar um grande transtorno para a empresa no futuro. (MARQUES, 2018).
+
 ## Qual é a associação entre computação em nuvem e virtualização?
 
 ## Faça uma analogia entre virtualização e contêiner.
@@ -53,14 +76,23 @@ Existem diversos hypervisors no mercado, tanto open source quanto pago. Alguns e
 
 ACADGILD. **What is Docker container - an introduction**. Disponível em: <<https://acadgild.com/blog/what-is-docker-container-an-introduction>>. Acesso em: 20 mai. 2018.
 
+ALURA. **Como configurar Virtual Hosts no Apache**. Disponível em: <<http://blog.alura.com.br/como-configurar-virtual-hosts-no-apache/>>. Acesso em: 20 mai. 2018.
+
 APACHE. **Apache Virtual Host documentation**. Disponível em: <<https://httpd.apache.org/docs/2.4/vhosts/>>. Acesso em: 20 mai. 2018.
 
 DOCKER. **What is a container**: a standardized unit of software. Disponível em: <<https://www.docker.com/what-container>>. Acesso em: 20 mai. 2018.
 
-TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: Pearson Prentice Hall, 2009.
+GETCARD. **O que é um hypervisor?**. Disponível em: <<http://www.getcard.com.br/novo/o-que-e-um-hypervisor/>>. Acesso em: 20 mai. 2018.
+
+MARQUES, **Marcus. Vantagens e desvantagens da computação em nuvem para o seu negócio**. Disponível em: <<http://marcusmarques.com.br/estrategias-de-negocio/vantagens-desvantagens-computacao-em-nuvem-negocio/>>. Acesso em: 20 mai. 2018.
 
 TABLELESS. **Como automatizar a criação de Virtual Hosts**. Disponível em: <<https://tableless.com.br/como-automatizar-criacao-de-virtual-hosts/>>. Acesso em: 20 mai. 2018.
 
-ALURA. **Como configurar Virtual Hosts no Apache**. Disponível em: <<http://blog.alura.com.br/como-configurar-virtual-hosts-no-apache/>>. Acesso em: 20 mai. 2018.
+TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: Pearson Prentice Hall, 2009.
 
-GETCARD. **O que é um hypervisor?**. Disponível em: <<http://www.getcard.com.br/novo/o-que-e-um-hypervisor/>>. Acesso em: 20 mai. 2018.
+WIKIPEDIA. **Computação em nuvem**. Disponível em: <<https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_em_nuvem>>. Acessível em: 20 mai. 2018.
+
+
+
+
+
