@@ -70,7 +70,27 @@ Outra desvantagem referese à **segurança**. Apesar dos arquivos serem criptogr
 
 ## Qual é a associação entre computação em nuvem e virtualização?
 
+Embora sejam diferentes, nuvem e virtualização se complementam. Os provedores de Cloud Computing se apoiam nessa técnica para maximizar sua infraestrutura de serviços e melhorar o gerenciamento de seus data centers, reduzindo custos como os de manutenção e de energia elétrica. Os provedores de nuvem também ofertam soluções virtualizadas para seus clientes. (CLOUD 21, 2018).
+
+Há uma grande confusão entre os conceitos de nuvem e virtualização pois a nuvem, em muitos casos, acrescenta em sua estrutura produtos virtualizados para facilitar o oferecimento de serviços. (VERT, 2018).
+
+Abaixo, o conteúdo de um artigo interessante sobre o assunto, retirado de Canal Tech (2018).
+
+> Virtualização e Cloud Computing são conceitos que estão relacionados, mas isso não significa que eles dizem respeito à mesma coisa. A interligação deles ocorre porque na implantação atual de cloud, geralmente ocorre a virtualização de servidores. Entretanto, essa não é uma regra. É possível obter uma solução de cloud computing utilizando apenas máquinas físicas, mas não é o mais comum, nem o mais eficiente e vantajoso.
+
+> Isso porque os benefícios de virtualizar são muitos. Virtualizar permite a consolidação de servidores, o que garante a redução de custos de operação de data centers e promove o upgrade de servidores. Além disso, facilita o gerenciamento e reduz o consumo de energia, espaço físico e de armazenamento de dados.
+
+> A redução do número de equipamentos físicos, consequentemente, gera a redução da quantidade de switches de rede, HBAs e SAN. Além da economia de recursos, virtualizar garante aos servidores alta disponibilidade e integra ambientes, o que facilita o processo de *disaster recovery*, reduz a necessidade de manutenção e aumenta o nível de segurança e desempenho do servidor.
+
+> Cloud Computing, por sua vez, é um modelo para acesso à rede sob demanda, em que os dados são armazenados na nuvem, permitindo compartilhamento seguro de informações e recursos computacionais, bem como fácil gestão e interação com o provedor de serviços.
+
+> Assim, a adoção da computaçção em nuvem pode significar uma economia de 10 a 40% no TCO (do inglês, Total Cost of Ownership). Essa redução de custos está relacionada à diminuição dos gastos com ativos, servidores, licenças de software e energia. Também é possível reduzir e ampliar facilmente sua infraestrutura de TI de acordo com a necessidade da empresa.
+
+> Portanto, quanto mais o seu ambiente estiver virtualizado, melhores serão os resultados no processo de implantação de Cloud Computing. Os principais benefícios serão a melhoria da gestão do ambiente de TI, segurança da informação e o mais importante: considerável redução de custos.
+
 ## Faça uma analogia entre virtualização e contêiner.
+
+Veja a pergunta acima: ***Qual é a diferença entre máquina virtual e container?***
 
 ## REFERÊNCIAS
 
@@ -79,6 +99,10 @@ ACADGILD. **What is Docker container - an introduction**. Disponível em: <<http
 ALURA. **Como configurar Virtual Hosts no Apache**. Disponível em: <<http://blog.alura.com.br/como-configurar-virtual-hosts-no-apache/>>. Acesso em: 20 mai. 2018.
 
 APACHE. **Apache Virtual Host documentation**. Disponível em: <<https://httpd.apache.org/docs/2.4/vhosts/>>. Acesso em: 20 mai. 2018.
+
+CANAL TECH. **Virtualização e cloud computing estão relacionadas?**. Disponível em: <<https://canaltech.com.br/virtualizacao/Virtualizacao-e-cloud-computing-estao-relacionadas/>>. Acesso em: 20 mai. 2018.
+
+CLOUD 21. **Qual a diferença entre virtualização e nuvem?**. Disponível em: <<https://cloud21.com.br/computacao-em-nuvem/qual-a-diferenca-entre-virtualizacao-e-nuvem/>>. Acesso em: 20 mai. 2018.
 
 DOCKER. **What is a container**: a standardized unit of software. Disponível em: <<https://www.docker.com/what-container>>. Acesso em: 20 mai. 2018.
 
@@ -90,7 +114,19 @@ TABLELESS. **Como automatizar a criação de Virtual Hosts**. Disponível em: <<
 
 TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: Pearson Prentice Hall, 2009.
 
+VERT. **Entenda como a virtualização se difere da computação na nuvem**. Disponível em: <<http://www.vert.com.br/blog-vert/entenda-como-a-virtualizacao-se-difere-da-computacao-na-nuvem/>>. Acesso em: 20 mai. 2018.
+
 WIKIPEDIA. **Computação em nuvem**. Disponível em: <<https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_em_nuvem>>. Acessível em: 20 mai. 2018.
+
+
+
+
+
+
+
+
+
+
 
 
 
