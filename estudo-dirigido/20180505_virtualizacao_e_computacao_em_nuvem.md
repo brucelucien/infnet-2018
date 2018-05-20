@@ -12,11 +12,9 @@
 
 ## Qual é a diferença entre máquina virtual e container?
 
-Máquina virtual e container são dois conceitos relacionados com virtualização.
+A tecnologia de máquinas virtuais, frequentemente chamada de "virtualização", tem mais de 40 anos. Essa tecnologia permite que um único computador hospede múltiplas máquinas virtuais, cada uma rodando potencialmente diferentes sistemas operacionais. A vantagem dessa abordagem é que a falha em uma máquina virtual não causa a queda automática das outras máquinas virtuais. Em um sistema virtualizado diferentes servidores podem rodar em diferentes máquinas virtuais, mantendo assim um modelo de falha parcial, da mesma forma que uma abordagem com vários computadores físicos teria, mas com custo muito menor e com manutenção mais fácil. (TANEMBAUM, 2009, p. 567).
 
-Chama-se container uma virtualização a nível de aplicação. A aplicação fica isolada do sistema operacional no qual é executada. A aplicação é "instalada" no container, que provê suas dependências. Uma grande vantagem do container é que ele só abstrai o que, de fato, é compartilhado entre as aplicações instaladas em containers. No Linux, por exemplo, utilizando Docker, as chamadas ao Kernel são compartilhadas entre todos os containers.
-
-Uma máquina virtual abstrai o próprio sistema operacional, que precisa ser instalado e executado completamente antes da instalação da aplicação. 
+(TROYER, 2007).
 
 ## Qual a diferença entre um host físico e um virtual?
 
@@ -29,3 +27,7 @@ Uma máquina virtual abstrai o próprio sistema operacional, que precisa ser ins
 ## Faça uma analogia entre virtualização e contêiner.
 
 ## REFERÊNCIAS
+
+TANENBAUM, Andrew S. **Modern operating systems**. 3ª ed. Upper Saddle River: Pearson Prentice Hall, 2009.
+
+TROYER, J. **Understanding full virtualization, paravirtualization, and hardware assist**. VMWare White Paper, VMWare, Palo Alto, CA, 2007.
