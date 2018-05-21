@@ -59,7 +59,20 @@ CORBA é útil em muitas situações. Em virtude da forma fácil como CORBA inte
 
 ### Visão geral mais técnica
 
-// TODO Terminar!
+Os quatro conceitos chave da orientação a objetos são:
+
+*  Encapsulamento
+*  Polimorfismo
+*  Herança
+*  Instanciação
+
+Aplicações CORBA são compostas de objetos, unidades individuais de software rodando que combinam funcionalidade e dados e, com frequência (mas não sempre) representam algo do mundo real. Tipicamente há muitas instâncias de um objeto de um determinado tipo - por exemplo, um site de e-commerce pode ter muitas instâncias de carrinhos de compras, todas idênticas em termos de funcionalidade mas diferentes sob o ponto de vista de que cada uma está associada a um cliente diferente e contém dados representando mercadorias que um cliente em particular selecionou. Quando uma aplicação legada, como um sistema de contabilidade, é envolvido (*wrapped*) no código com interfaces CORBA e aberto para clientes na rede, existe normalmente somente uma instância dele.
+
+Para cada tipo de objeto, como o carrinho de compras mencionado a pouco, define-se uma interface OMG IDL. A interface é a parte da sintaxe do contrato que o objeto servidor oferece aos clientes que o invocam. Qualquer cliente que quer invocar uma operação no objeto deve utilizar essa interface IDL para especificar a operação que ele quer realizar e para empacotar os argumentos que ele envia. Quando a invocação alcança o objeto alvo, a mesma definição de interface é utilizada para desempacotar os resultados da viagem de volta e para desempacotar quando eles encontram seu destino.
+
+A definição da interface IDL é independente de linguagem de programação, mas mapeia para todas as linguagens populares de programação através de padrões OMG: OMG tem padronizado o mapeamento de IDL para C, C++, C++11, Java, Ruby, COBOL, Smalltalk, Ada, Lisp, Python e IDLscript.
+
+A separação entre interface e implementação, permitida pelo OMG IDL, é a essência de CORBA - como isso permite interoperabilidade, com toda a transparência que se almeja. A interface de cada objeto é definida de forma muito estrita. Em contraste, a implementação de um objeto - seu código rodando e seus dados - está oculta do resto do sistema (que está encapsulado) atrás de uma fronteira que o cliente não pode passar. Os clientes acessam os objetos somente através de sua interface anunciada, invocando somente aquelas operações que o objeto expõe através de sua interface IDL, com somente aqueles parâmetros (entradas e saídas) que estão incluidas na invocação.
 
 ## O que é Pub/Sub?
 
