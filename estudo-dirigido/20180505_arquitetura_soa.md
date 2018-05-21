@@ -47,6 +47,20 @@ Só por curisidade, *mashup* se resume a diferentes serviços que podem funciona
 
 ## O que é CORBA?
 
+O conteúdo abaixo foi retirado de CORBA (2018).
+
+### Conceitos básicos
+
+**CORBA** é o acrônimo para **Common Object Request Broker Architecture** (*arquitetura comum de agente de solicitação de objeto*, em uma tradução livre). É uma arquitetura e infraestrutura do OMG aberta e independente de vendedores que aplicações usam para trabalhar juntas usando redes de computadores. Utilizando o protocolo padrão IIOP, um programa baseado em CORBA de qualquer vendedor, em quase qualquer computador, sistema operacional, linguagem de programação e rede pode interoperar com um programa baseado em CORBA do mesmo ou de outro vendedor, em quase que qualquer outro computador, sistema operacional, linguagem de programação e rede.
+
+### Utilidade
+
+CORBA é útil em muitas situações. Em virtude da forma fácil como CORBA integra máquinas de tantos vendedores, com tamanhos variando de mainframes até sistemas pequenos e desktops até hand-helds e sistemas embarcados, esse é o middleware escolhido por grandes (e mesmo não tão grandes) empresas. Um de seus mais importantes, e também mais frequentes, usos é em servidores que precisam manipular um grande número de clientes, em altas taxas de acerto, com alta confiabilidade. CORBA trabalha por trás das cenas em salas de computador de muitos dos maiores websites do mundo; alguns dos quais o público em geral usa todos os dias. Especializações para escalabilidade e tolerância a falhas dão suporte a esses sistemas. Contudo, CORBA não é utilizada somente por grandes aplicações: versões especializadas de CORBA rodam em sistemas de tempo real e pequenos sistemas embarcados.
+
+### Visão geral mais técnica
+
+// TODO Terminar!
+
 ## O que é Pub/Sub?
 
 ## O que é uma API?
@@ -54,6 +68,8 @@ Só por curisidade, *mashup* se resume a diferentes serviços que podem funciona
 ## REFERÊNCIAS
 
 ALVES, Luís Cézar Darienzo. **O impacto da virtualização no desempenho de aplicações distribuídas baseadas em SOA e a sua influência nos modelos de desempenho**. Orientador: Marcos José Santana. Tese de doutorado. Universidade de São Paulo. 2013.
+
+CORBA. **CORBA FAQ**. Disponível em: <<http://www.corba.org/faq.htm>>. Acesso em: 20 mai. 2018.
 
 SOMMERVILLE, Ian. **Engenharia de software**. 9ª ed. São Paulo: Pearson Prentice Hall, 2011.
 
