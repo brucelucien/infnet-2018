@@ -76,6 +76,10 @@ A separação entre interface e implementação, permitida pelo OMG IDL, é a es
 
 ## O que é Pub/Sub?
 
+Em arquitetura de software, publish-subscribe é um padrão de envio de mensagens no qual publicadores não endereçam as mensagens para serem enviadas diretamente a um recebedor específico. Ao invés disso, as mensagens publicadas são categorizadas em classes, sem o conhecimento sobre quem são os recebedores cadastrados a receber o conteúdo de cada categoria. Java Message Service (JMS) é um exemplo de implementação que suporta o padrão publish-subscribe. (WIKIPEDIA, 2018).
+
+Em muitos sistemas pub/sub publicadores postam mensagens a um agente intermediário e interessados em receber essas mensagens se registram no agente intermediário deixando que ele (o agente intermediário) filtre as mensagens de acordo com a categoria ou as categorias desejadas por aquele que se registrou. (WIKIPEDIA, 2018).
+
 ## O que é uma API?
 
 Segundo FOLDOC (2018),
@@ -105,3 +109,5 @@ SOMMERVILLE, Ian. **Engenharia de software**. 9ª ed. São Paulo: Pearson Prenti
 TECMUNDO. **O que é mashup?**. Disponível em: <<https://www.tecmundo.com.br/twitter/1401-o-que-e-mashup-.htm>>. Acesso em: 20 mai. 2018.
 
 TROYER, J. **Understanding full virtualization, paravirtualization, and hardware assist**. VMWare White Paper, VMWare, Palo Alto, CA, 2007.
+
+WIKIPEDIA. **Publish-subscribe pattern**. Disponível em: <<https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern>>. Acesso em: 21 mai. 2018.
