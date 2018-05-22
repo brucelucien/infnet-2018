@@ -78,11 +78,27 @@ A separação entre interface e implementação, permitida pelo OMG IDL, é a es
 
 ## O que é uma API?
 
+Segundo FOLDOC (2018),
+
+API, or "application programming interface" é uma interface (convenções de chamadas) pela qual uma aplicação acessa o sistema operacional e outros serviços. Uma API é definida em nível de código fonte e fornece um nível de abstração entre a aplicação e o kernel (ou outras utilidades privilegiadas) para assegurar a portabilidade do código.
+
+Uma API também pode prover uma interface entre uma linguagem de alto nível e funcionalidades de nível mais baixo e serviços que foram escritos sem considerar convenções de chamada suportadas por linguagens compiladas. Nesse caso, a tarefa principal da API pode ser a tradução da lista de parâmetros de um formato para outro e a interpretação de argumentos chamados por valor e chamados por referência em uma ou em ambas as direções.
+
+Segundo COMPUTERWORLD (2018),
+
+Todo software tem que requisitar a outro software para fazer coisas para si. Para alcançar esse objetivo, o programa que requisita usa um grupo de requisições padronizadas, chamadas de application programming interface (API), que foram definidas pelo programa que está sendo chamado.
+
+Quase toda aplicação depende de APIs de seu sistema operacional subjacente para realizar funções básicas como o acesso ao sistema de arquivos. Na essência, uma API de programa define a maneira adequada de um desenvolvedor requisitar serviços do programa.
+
 ## REFERÊNCIAS
 
 ALVES, Luís Cézar Darienzo. **O impacto da virtualização no desempenho de aplicações distribuídas baseadas em SOA e a sua influência nos modelos de desempenho**. Orientador: Marcos José Santana. Tese de doutorado. Universidade de São Paulo. 2013.
 
+COMPUTERWORLD. **Application Programming Interface**. Disponível em: <<https://www.computerworld.com/article/2593623/app-development/application-programming-interface.html>>. Acesso em: 21 mai. 2018.
+
 CORBA. **CORBA FAQ**. Disponível em: <<http://www.corba.org/faq.htm>>. Acesso em: 20 mai. 2018.
+
+FOLDOC. **Application Program Interface**. Disponível em: <<http://foldoc.org/Application+Program+Interface>>. Acesso em: 21 mai. 2018.
 
 SOMMERVILLE, Ian. **Engenharia de software**. 9ª ed. São Paulo: Pearson Prentice Hall, 2011.
 
