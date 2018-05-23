@@ -11,7 +11,24 @@
 
 ## Qual é o impacto da metodologia de desenvolvimento de software uma vez que venhamos a adotar a computação em nuvem?
 
-## Cite e comente as principais plataformas de serviços de computação em nuvem. Ex.: Amazon, Azure, Google Cloud e Oracle Plataform.
+## Cite e comente as principais plataformas de serviços de computação em nuvem. Ex.: Amazon, Azure, Google Cloud e Oracle Platform.
+
+As ideias abaixo foram retiradas de Redpixie (2018), que faz uma comparação entre AWS, Azure e Google Cloud.
+
+Enquanto que a escolha de nuvem privada, híbrida ou pública pode ser uma difícil decisão, exite uma questão importante que deve ser superada primeiro: AWS x Azure 
+x Google Cloud (Platform).
+
+Amazon tem uma rica experiência na comparação e agregação de vastas somas de dados. Os pontos fortes do Google tem origem em uma metodologia analítica. Enquanto que a herança da Microsoft vem da computação.
+
+É especialmente importante entender as ideias acima porque como será visto a seguir, a melhor opção de escolha pode nem sempre envolver somente um provedor de nuvem.
+
+### Preço
+
+O modelo de três camadas da Amazon, de acordo com o armazenamento, é muito útil se só é necessário colocar alguns dados na nuvem. Infelizmente, quando chega a 50TB - 500TB, a diferença de percentual de preço não é muito grande.
+
+Azure tem uma política de preços que é, de certa forma, mais agressiva do que aquela praticada por Amazon e Google Cloud, devido a seu desejo de liderar os seguimentos de cloud.
+
+O modelo de preços do Google Cloud procura estar próximo de seus concorrentes enquanto sua ênfase é o desejo de cobrar exatamente o que é utilizado.
 
 ## Qual é o impacto da adoção das plataformas de serviços de computação em nuvem?
 
@@ -94,5 +111,7 @@ CLOUD 21. **O que é servidor on-premises e em Cloud Computing?**. Disponível e
 COMPUTERWORLD. **Nuvem pública, privada ou híbrida? Entenda as diferenças**. Disponível em: <<http://computerworld.com.br/nuvem-publica-privada-ou-hibrida-entenda-diferencas>>. Acesso em: 22 mai. 2018.
 
 GIZMODO. **Entenda o que significa SaaS, PaaS e IaaS**. Disponível em: <<https://gizmodo.uol.com.br/entenda-o-que-significa-saas-paas-e-iaas/>>. Acesso em: 22 mai. 2018.
+
+REDPIXIE. **AWS vs Azure vs Google Cloud: Ultimate Comparison [2018 Update]**: compare the various cloud providers with this guide. Disponível em: <<https://www.redpixie.com/blog/aws-vs-azure-vs-google-cloud>>. Acesso em: 22 mai. 2018.
 
 SOMMERVILLE, Ian. **Engenharia de software**. 9ª ed. São Paulo: Pearson Prentice Hall, 2011.
