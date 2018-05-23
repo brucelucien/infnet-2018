@@ -62,9 +62,36 @@ O SaaS é uma maneira de entregar a funcionalidade de aplicação para os usuár
 
 ## Em que consistem as três diferentes formas de implantar recursos de computação em nuvem: pública, híbrida e privada?
 
+Dentro da computação em nuvem existem três tipos de organização para fornecimento de serviços, infraestrutura, armazenamento de dados, plataformas e softwares: a *nuvem pública, privada e a híbrida*. (COMPUTERWORLD, 2018).
+
+### Nuvem PÚBLICA
+
+A nuvem pública é o modelo mais utilizado nas empresas, por ser adequada à utilização de softwares como serviços (SaaS) e permitir a ampliação da capacidade de armazenamento. Assim, os serviços são fornecidos em um ambiente virtualizado acessível por meio da internet, construído utilizando recursos físicos agrupados e compartilhados. Além disso, o provedor usa a internet para tornar os recursos disponíveis para seus clientes, cada qual com seus níveis de acesso bem definidos. (COMPUTERWORLD, 2018).
+
+É o tipo de nuvem mais barato, pois os custos de hardware, aplicativos e largura de banda são cobertos pelo provedor. A empresa paga somente pela capacidade utilizada. (COMPUTERWORLD, 2018).
+
+Uma nuvem pública é indicada para empresas que querem ganhar poder tecnológico sem dispor de grandes investimentos em TI. Ela também é útil para quem tem pressa em utilizar recursos virtualizados, por tratar-se de um nuvem que já está pronta. (COMPUTERWORLD, 2018).
+
+### Nuvem PRIVADA
+
+A nuvem privada foi criada para atender às necessidades de um único negócio. Ela pode ser implementada internamente para atender diversas filiais, por exemplo, ou ser fornecida por um provedor. É uma arquitetura de data center própria e exclusiva de uma empresa. Ela oferece todos os benefícios da nuvem pública, como flexibilidade, escalabilidade, provisionamento, automação, monitoramento, entre outros, com a diferença de não ser dividida com outras empresas. (COMPUTERWORLD, 2018).
+
+Vale lembrar que nesse modelo, os recursos *as-a-service* não são vendidos a diferentes clientes pelo provedor, mas ofertados a uma única empresa, podendo servir, por exemplo, diferentes filiais e parceiros de negócios. (COMPUTERWORLD, 2018).
+
+Uma nuvem privada é indicada para empresas que gerenciam dados muito sensíveis, como transações financeiras, por exemplo. 
+Ela também serve muito bem para negócios nos quais a cultura de controle interno é bem rígida. (COMPUTERWORLD, 2018).
+
+### Nuvem HÍBRIDA
+
+A nuvem híbrida mescla os dois modelos anteriores, visando extrair o melhor de ambos e desempenhar funçõs distintas dentro de uma mesma organização. Se, por um lado, as nuvens públicas oferecem mais escalabilidade do que as privadas, estas por sua vez são mais recomendadas para armazenagem de dados críticos. Logo, é possível maximizar as eficiências por meio dessa mescla, conforme as necessidades da empresa. (COMPUTERWORLD, 2018).
+
+Na maioria das vezes, o modelo é escolhido por empresas que já possuem uma boa infraestrutura interna e também querem aproveitar os benefícios do modelo público, especialmente no que diz respeito a softwares como serviço (SaaS). (COMPUTERWORLD, 2018).
+
 ## REFERÊNCIAS
 
 CLOUD 21. **O que é servidor on-premises e em Cloud Computing?**. Disponível em: <<https://cloud21.com.br/computacao-em-nuvem/o-que-e-servidor-on-premises-e-em-cloud-computing/>>. Acesso em: 22 mai. 2018.
+
+COMPUTERWORLD. **Nuvem pública, privada ou híbrida? Entenda as diferenças**. Disponível em: <<http://computerworld.com.br/nuvem-publica-privada-ou-hibrida-entenda-diferencas>>. Acesso em: 22 mai. 2018.
 
 GIZMODO. **Entenda o que significa SaaS, PaaS e IaaS**. Disponível em: <<https://gizmodo.uol.com.br/entenda-o-que-significa-saas-paas-e-iaas/>>. Acesso em: 22 mai. 2018.
 
