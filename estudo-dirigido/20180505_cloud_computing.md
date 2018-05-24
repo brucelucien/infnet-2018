@@ -11,6 +11,10 @@
 
 ## Qual é o impacto da metodologia de desenvolvimento de software uma vez que venhamos a adotar a computação em nuvem?
 
+Os métodos ágeis tornam-se uma opção deveras atraente. Isso porque os conceitos ágeis são muito favorecidos por um software centralizado (no caso de SaaS, por exemplo). Ciclos curtos, processo de teste e deploy automatizados, integração contínua, implantação contínua favorecem a computação em nuvem pois as alterações propostas pelos usuários podem ser validadas com muito mais rapidez pois não se tem, por exemplo, um processo complexo de gerenciamento de versões em produção. A versão em produção é única.
+
+Em se tratando do uso de PaaS, metodologias ágais também favorecem a gestão de times distribuídos pelo mundo, o que otimiza a utilização dos recursos contratados como PaaS.
+
 ## Cite e comente as principais plataformas de serviços de computação em nuvem. Ex.: Amazon, Azure, Google Cloud e Oracle Platform.
 
 As ideias abaixo foram retiradas de Redpixie (2018), que faz uma comparação entre AWS, Azure e Google Cloud.
@@ -31,6 +35,12 @@ Azure tem uma política de preços que é, de certa forma, mais agressiva do que
 O modelo de preços do Google Cloud procura estar próximo de seus concorrentes enquanto sua ênfase é o desejo de cobrar exatamente o que é utilizado.
 
 ## Qual é o impacto da adoção das plataformas de serviços de computação em nuvem?
+
+A adoção de uma plataforma ou de plataformas de serviços de computação em nuvem, principalmente no que diz respeito a empresas acostumadas a ter total gerência sobre seus ativos tecnológicos, vem acopanhada de questões importantes e muitas vezes não tão óbvias quanto se possa parecer.
+
+Um exemplo disso são as questões básicas de segurança e monitoria. É fácil que a empresa se acostume com a tranquilidade que uma solução on-premise pois a única preocupação é local e não está potencialmente sempre vulnerável a ataques externos. Ou, pelo menos, se tem o controle total do equipamento em uso.
+
+Quando uma solução em nuvem é adotada, as questões de monitoria e segurança tornam-se fundamentais. Se já são importantes com uma infraestrutura local, tornam-se cruciais na nuvem pois os recursos contratados, apesar de terem um custo otimizado por uso, necessitam de um ajuste constante para que as melhores opções sejam escolhidas sempre de acordo com a realidade da empresa.
 
 ## Qual é a diferença entre IaaS, PaaS e SaaS?
 
@@ -78,6 +88,8 @@ A noção de *SaaS* e as arquiteturas orientadas a serviço (*SOA*s) relacionam-
 O SaaS é uma maneira de entregar a funcionalidade de aplicação para os usuários, enquanto a SOA é uma tecnologia de implementação para sistemas de aplicações. A funcionalidade implementada pelo uso da SOA precisa aparecer para usuários como serviços. Da mesma forma, os serviços de usuário não precisam ser implementados pelo uso da SOA. No entando, se o SaaS é implementado usando a SOA, torna-se possível para aplicações usarem APIs de serviço para acessar a funcionalidade de outras aplicações. Em seguida, estas podem ser integradas em sistemas mais complexos; são chamados ***mashups*** e representam outra abordagem para reúso de software e desenvolvimento rápido de software. (SOMMERVILLE, 2011; p. 350).
 
 ## Em que consistem as três diferentes formas de implantar recursos de computação em nuvem: pública, híbrida e privada?
+
+São tipos de implantação.
 
 Dentro da computação em nuvem existem três tipos de organização para fornecimento de serviços, infraestrutura, armazenamento de dados, plataformas e softwares: a *nuvem pública, privada e a híbrida*. (COMPUTERWORLD, 2018).
 
