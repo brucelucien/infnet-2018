@@ -14,32 +14,85 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 ## 2.1 FUNCIONAIS
 
- 1. Permitir a manutenção de um cadastro de questões do tipo texto com opções de resposta numa escala Likert de cinco graus  por usuário com perfil de administrador da solução.
- 2. Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
- 3. Identificar univocamente as avaliações (com um código alfanumérico criado a critério de um usuário com perfil de administrador da solução).
- 4. Permitir a associação de questões do cadastro de questões com uma determinada avaliação.
- 5. Permitir que somente os alunos que cursaram um determinado módulo respondam às avaliações.
- 6. Enviar aos professores o resultado de suas avaliações pelos alunos.
- 7. Permitir que somente usuários com o papel de administrador do sistema possam definir o período de início de uma determinada avaliação.
- 8. Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
- 9. Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
+1. Permitir a manutenção de um cadastro de questões do tipo texto com opções de resposta numa escala Likert de cinco graus.
+
+1. Permitir a manutenção de um cadastro de avaliações por usuário com perfil de administrador da solução.
+
+1. Permitir a associação de questões do cadastro de questões com uma determinada avaliação.
+
+1. Garantir que cada avaliação terá um código alfanumérico que a identificará univocamente, criado a critério de um usuário com perfil de administrador da solução.
+
+1. Enviar aos professores o resultado de suas avaliações pelos alunos.
+
+1. Permitir que somente usuários com o papel de administrador do sistema possam definir o período de início de uma determinada avaliação.
+
+1. Enviar e-mails, no momento de início de uma avaliação, a todos os alunos habilitados a participar da avaliação.
+
+1. Permitir a utilização de tags, com tratamento de gênero, e que identificam o aluno, na elaboração do email que será enviado aos alunos.
+
+1. Prever que uma avaliação terá as seguintes informações: objetivo da avaliação, data e hora de início, data e hora de término, matrícula e nome do respondente. identificação do módulo, identificação da turma, identificação do professor e um conjutno de questões copiadas do cadastro de questões.
+
+1. Prever que o texto convidativo para a avaliação seja editável.
+
+1. Imprimir a avaliação por usuários com perfil de administrador.
+
+1. Gerar planílha com o resultado das avaliações.
 
 ## 2.2 NÃO FUNCIONAIS
 
- 1. Evitar a exibição de barras de rolagem horizontal na exibição do formulário eletrônico.
- 2. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
- 3. Editar (usando algum editor *rich text*) o código HTML que será enviado no e-mail disparado aos alunos que avaliarão a qualidade do ensino.
- 4. Incluir o endereço do link para avaliação no e-mail enviado aos alunos que responderão a avaliação.
- 5. Abrir automaticamente o período de avaliação, a partir do momento programado para seu início.
- 6. Permitir que o usuário role verticalmente o formulário eletrônico quando há uma quantidade de questões que ultrapassa o tamanho da tela do usuário. 
- 7. Permitir a utilização de tags (com tratamento de gênero) que identificam o aluno.
- 8. Não deve existir preferência de resposta entre as alternativas de uma questão.
+1. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
+
+1. Editar, usando algum editor *rich text*, o código HTML que será enviado no e-mail disparado aos alunos que avaliarão a qualidade do ensino.
+
+1. Permitir que o usuário role verticalmente o formulário eletrônico quando há uma quantidade de questões que ultrapassa o tamanho da tela do usuário. 
+
+1. Evitar a exibição de barras de rolagem horizontais na exibição do formulário eletrônico.
+
+1. Incluir o endereço do link para o questionário no e-mail enviado aos alunos que responderão a avaliação.
+
+1. Fechar automaticamente o formulário de avaliação dois dias úteis após a data de término do módulo.
+
+1. Garantir a segurança de acesso ao questionário, que deve ter acesso autenticado.
+
+1.  Garantir que somente usuários com perfil de administrador possão alterar o texto convidativo enviado por e-mail aos alunos que participarão da avaliação.
+
+1. Garantir que o formulário seja apresentado inicialmente ao aluno com todas as opções desmarcadas.
+
+1. Ter desempenho suficiente para, no mínimo, 1000 alunos matriculados regularmente.
+
+1. Dificultar a impressão da avaliação pelos alunos.
+
+1. Garantir a execução nos browser Mozilla Firefox e Google Chrome.
+
+1. Gerar a planílha com o resultado das avaliações no formato CSV, nomeado como CODIGODAAVALIACAO_MATRICULADOALUNO.
 
 ## 2.3 REGRAS DE NEGÓCIO
 
- 1. Professores não podem utilizar o sistema.
+1. Professores não podem utilizar o sistema.
+ 
+1. Não deve existir preferência de resposta entre as alternativas de uma questão.
+ 
+1. O período de avaliação deve ser automaticamente aberto a partir do momento programado para seu início.
+
+1. Somente os alunos que cursaram um determinado módulo podem responder as avaliações.
+
+1. Normalmente o período de avaliação é aberto no início da última semana do respectivo módulo.
+
+1. Planílhas com os resultados das avaliações são utilizadas pela secretaria para encaminhar as avaliações ao cooordenador de cada curso.
+
+1. Os coordenadores de curso apresentam os resultados das avaliações em reunião pessoal com cada professor.
 
 ## 2.4 RISCOS DO PROJETO
+
+1. O projeto pode deixar de ser relevante
+
+|Risco|Causa|Probabilidade|Ação|
+|-|-|-|-|
+|Projeto deixar de ser relevante à instituição.|Aquisição da instituição por outra empresa.|Baixa|Montar apresentação demonstrando a importância do projeto.|
+|Funcionários podem não cooperar com o projeto.|Medo de que o software torne obsoletos seus cargos.|Baixa|Entregas rápidas, com sprints curtos, apresentando aos funcionários o software produzido de forma que possam se familiarizar com ele durante o desenvolvimento projeto e reconhecer sua importância por si mesmos.|
+|Baixa produtividade dos desenvolvedores.|Alta rotatividade de desenvolvedores no projeto.|Média|Tornar os cargos da equipe atrativos no que tange a salários, vantagens e ambiente organizacional.|
+|Atraso nas datas de entrega definidas.|Erro de estimativa quanto à produtividade da equipe em relação ao tamanho do projeto.|Alta|Medição utilizando pontos de função ou estimativa no formato ágil utilizando planning poker e acompanhamento constante das métricas e dos marcos definidos no projeto.|
+
 
 # 3 MÉTRICAS DE PROJETO
 
