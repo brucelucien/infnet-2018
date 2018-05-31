@@ -84,15 +84,12 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 ## 2.4 RISCOS DO PROJETO
 
-1. O projeto pode deixar de ser relevante
-
 |Risco|Causa|Probabilidade|Ação|
 |-|-|-|-|
 |Projeto deixar de ser relevante à instituição.|Aquisição da instituição por outra empresa.|Baixa|Montar apresentação demonstrando a importância do projeto.|
 |Funcionários podem não cooperar com o projeto.|Medo de que o software torne obsoletos seus cargos.|Baixa|Entregas rápidas, com sprints curtos, apresentando aos funcionários o software produzido de forma que possam se familiarizar com ele durante o desenvolvimento projeto e reconhecer sua importância por si mesmos.|
 |Baixa produtividade dos desenvolvedores.|Alta rotatividade de desenvolvedores no projeto.|Média|Tornar os cargos da equipe atrativos no que tange a salários, vantagens e ambiente organizacional.|
 |Atraso nas datas de entrega definidas.|Erro de estimativa quanto à produtividade da equipe em relação ao tamanho do projeto.|Alta|Medição utilizando pontos de função ou estimativa no formato ágil utilizando planning poker e acompanhamento constante das métricas e dos marcos definidos no projeto.|
-
 
 # 3 MÉTRICAS DE PROJETO
 
