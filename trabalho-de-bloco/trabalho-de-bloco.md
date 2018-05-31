@@ -78,7 +78,7 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Normalmente o período de avaliação é aberto no início da última semana do respectivo módulo.
 
-1. Planílhas com os resultados das avaliações são utilizadas pela secretaria para encaminhar as avaliações ao cooordenador de cada curso.
+1. Planilhas com os resultados das avaliações são utilizadas pela secretaria para encaminhar as avaliações ao cooordenador de cada curso.
 
 1. Os coordenadores de curso apresentam os resultados das avaliações em reunião pessoal com cada professor.
 
