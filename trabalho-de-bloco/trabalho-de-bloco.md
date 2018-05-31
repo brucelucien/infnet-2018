@@ -34,6 +34,10 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Prever que o texto convidativo para a avaliação seja editável.
 
+1. Imprimir a avaliação por usuários com perfil de administrador.
+
+1. Gerar planílha com o resultado das avaliações.
+
 ## 2.2 NÃO FUNCIONAIS
 
 1. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
@@ -54,7 +58,13 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Garantir que o formulário seja apresentado inicialmente ao aluno com todas as opções desmarcadas.
 
-1. 
+1. Ter desempenho suficiente para, no mínimo, 1000 alunos matriculados regularmente.
+
+1. Dificultar a impressão da avaliação pelos alunos.
+
+1. Garantir a execução nos browser Mozilla Firefox e Google Chrome.
+
+1. Gerar a planílha com o resultado das avaliações no formato CSV, nomeado como CODIGODAAVALIACAO_MATRICULADOALUNO.
 
 ## 2.3 REGRAS DE NEGÓCIO
 
@@ -68,14 +78,20 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Normalmente o período de avaliação é aberto no início da última semana do respectivo módulo.
 
+1. Planílhas com os resultados das avaliações são utilizadas pela secretaria para encaminhar as avaliações ao cooordenador de cada curso.
+
+1. Os coordenadores de curso apresentam os resultados das avaliações em reunião pessoal com cada professor.
+
 ## 2.4 RISCOS DO PROJETO
 
 1. O projeto pode deixar de ser relevante
 
 |Risco|Causa|Probabilidade|Ação|
 |-|-|-|-|
-|O projeto deixar de ser relevante à instituição|Aquisição da instituição por outra empresa.|Baixa|Montar apresentação demonstrando a importância do projeto.|
-|Funcionários podem não cooperar com o projeto|Medo de que o software torne obsoletos seus cargos.|Baixa|Entregas rápidas, com sprints curtos, apresentando aos funcionários o software produzido de forma que possam se familiarizar com ele durante o desenvolvimento projeto e reconhecer sua importância por si mesmos.|
+|Projeto deixar de ser relevante à instituição.|Aquisição da instituição por outra empresa.|Baixa|Montar apresentação demonstrando a importância do projeto.|
+|Funcionários podem não cooperar com o projeto.|Medo de que o software torne obsoletos seus cargos.|Baixa|Entregas rápidas, com sprints curtos, apresentando aos funcionários o software produzido de forma que possam se familiarizar com ele durante o desenvolvimento projeto e reconhecer sua importância por si mesmos.|
+|Baixa produtividade dos desenvolvedores.|Alta rotatividade de desenvolvedores no projeto.|Média|Tornar os cargos da equipe atrativos no que tange a salários, vantagens e ambiente organizacional.|
+|Atraso nas datas de entrega definidas.|Erro de estimativa quanto à produtividade da equipe em relação ao tamanho do projeto.|Alta|Medição utilizando pontos de função ou estimativa no formato ágil utilizando planning poker e acompanhamento constante das métricas e dos marcos definidos no projeto.|
 
 
 # 3 MÉTRICAS DE PROJETO
