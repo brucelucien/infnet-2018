@@ -97,11 +97,21 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 ### 3.1.1 TAMANHO
 
+117 pontos de função calculados com base na planílha de contagem.
+
 ### 3.1.2 PRAZO
+
+2 meses.
+
+Calculamos 48,75 dias úteis com base na divisão da quantidade de dias necessários para a realização do projeto (195 dias, no caso) distribuídos entre quatro pessoas, que é a quantidade de recursos disponíveis para o projeto.
+
+A quantidade de 195 dias é o resultado da divisão da quantidade de horas previstas para a realização do projeto (1.170 horas = 117 PF * 10 h/PF) considerando uma jornada de trabalho diária de 6 horas.
 
 ### 3.1.3 ESFORÇO
 
 ### 3.1.4 EQUIPE
+
+4 pessoas considerando os 4 componentes do grupo.
 
 ### 3.1.5 CUSTO
 
