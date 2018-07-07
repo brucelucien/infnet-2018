@@ -36,7 +36,7 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Imprimir a avaliação por usuários com perfil de administrador.
 
-1. Gerar planílha com o resultado das avaliações.
+1. Gerar planilha com o resultado das avaliações.
 
 1. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
 
