@@ -109,7 +109,7 @@ A quantidade de 195 dias é o resultado da divisão da quantidade de horas previ
 
 ### 3.1.3 ESFORÇO
 
-
+1.170 horas com base na multiplicação da quantidade de pontos de função estimados (117 PF), pela produtividade média na tecnologia Java (10 h/PF).
 
 ### 3.1.4 EQUIPE
 
