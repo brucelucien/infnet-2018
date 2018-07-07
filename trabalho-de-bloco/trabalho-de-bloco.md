@@ -40,6 +40,8 @@ Criar um formulário eletrônico via web para suportar o processo de avaliação
 
 1. Garantir que o formulário web tenha o mesmo layout do formulário de papel utilizado pela instituição.
 
+1. Alterar as respostas das questões durante o período avaliativo por parte dos alunos participantes.
+
 ## 2.2 NÃO FUNCIONAIS
 
 1. Editar, usando algum editor *rich text*, o código HTML que será enviado no e-mail disparado aos alunos que avaliarão a qualidade do ensino.
