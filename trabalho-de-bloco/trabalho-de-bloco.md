@@ -109,11 +109,15 @@ A quantidade de 195 dias é o resultado da divisão da quantidade de horas previ
 
 ### 3.1.3 ESFORÇO
 
+
+
 ### 3.1.4 EQUIPE
 
 4 pessoas considerando os 4 componentes do grupo.
 
 ### 3.1.5 CUSTO
+
+O custo total do projeto é de R$ 93,600 considerando o custo de R$ 80,00 por hora trabalhada e a quantidade estimada de horas para o projeto (1.170 horas).
 
 ### 3.1.6 RECURSOS COMPUTACIONAIS CRÍTICOS
 
